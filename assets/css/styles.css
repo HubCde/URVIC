@@ -190,6 +190,11 @@ body {
     color: var(--second-color);
 }
 
+.download {
+    font-size: 48px;
+    cursor: pointer;
+}
+
 /* === Slide === */
 @keyframes slide{
     from{
@@ -334,3 +339,39 @@ body {
 .servicio__card-button:hover{
     background-color: var(--primary-color);
 }
+
+/* === Nosotros === */
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 130vh;
+    background-color: bisque;
+}
+
+.nosotros__title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+.nosotros__line{
+    display: flex;
+    width: 30%;
+    height: 5px;
+    background-color: var(--orange-color);
+}
+.nosotros__title-h3{
+    font-size: 3.5rem;
+}
+
+.nosotros__objetive{
+    position: relative;
+    top: -30rem;
+    width: 100%;
+}
+
