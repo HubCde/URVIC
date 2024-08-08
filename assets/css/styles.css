@@ -343,11 +343,15 @@ body {
 /* === Nosotros === */
 .nosotros{
     display: flex;
+    background-image: url("../img/servicios_fondo.png");
+    background-repeat: no-repeat;
+    background-position: right  top;
+    background-size: 80%;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 100vh;
-    background-color: bisque;
+    height: 140vh;
+    /* background-color: bisque; */
 }
 
 .nosotros__title{
@@ -357,7 +361,7 @@ body {
     align-items: center;
     justify-content: space-around;
     margin-top: 5rem;
-    margin-bottom: 8rem;
+    margin-bottom: 3rem;
 }
 .nosotros__line{
     display: flex;
@@ -413,5 +417,45 @@ body {
     justify-content: center;
     flex-direction: row;
     width: 100%;
-    margin-top: 10rem;
+}
+
+.nosotros__description-parrafos{
+    position: relative;
+    width: 40%;
+    padding-top: 15rem;
+}
+
+.nosotros__description-parrafos p{
+    font-size: 2rem;
+    color: var(--text-colorOne);
+    line-height: 3rem;
+    margin-bottom: 3rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.nosotros__imagen2{
+    width: 40%;
+}
+
+.shadow__description{
+    width: 40rem;
+    height: 70rem;
+    background-color: #efefef;
+    margin-left: 20rem;
+}
+
+.nosotros__description-img{
+    position: relative;
+    top: -50%;
+    right: -25%;
+    width: 80%;
+}
+
+/* === Galeria === */
+
+.galeria{
+    width: 100%;
+    height: 100vh;
+    background-color: #a3cbf6;
 }
