@@ -788,7 +788,6 @@ body {
 .comunicacion__items-content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .comunicacion__items-h3{
     display: flex;
