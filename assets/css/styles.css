@@ -817,5 +817,125 @@ body {
     word-break: normal;
 }
 
+/* === Footer === */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    height: 110vh;
+    background-color: var(--primary-color);
+    padding-top: 5rem;
+}
+
+.footer__title{
+    font-size: 7rem;
+    color: var(--second-color);
+    margin-bottom: 5rem;
+    width: 60%;
+    text-align: center;
+}
+
+.footer__redes{
+    display: flex;
+    gap: 7rem;
+}
+
+.footer__redes-img{
+    width: 20rem;
+    height: auto;
+    cursor: pointer;
+}
+
+.footer__menu{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    gap: 5rem;
+    margin-top: 4rem;
+}
+
+
+.footer__menu-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.footer__menu-logo{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.footer__menu-p{
+    font-size: 2rem;
+    color: rgba(106, 107, 121, 0.788);
+    margin-bottom: 1rem;
+
+}
+
+.footer__menu-items{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer__menu-item{
+    font-size: 2.5rem;
+    color: var(--second-color);
+    cursor: pointer;
+    transition: all 300ms ease;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: rgba(106, 107, 121, 0.788);
+}
+
+.footer__menu-item:hover{
+    color: var(--orange-color);
+}
+
+.footer__menu-contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.menu__contacto-footer{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2.5rem;
+    color: rgba(106, 107, 121, 0.788);
+    cursor: pointer;
+}
+
+.menu__contacto-footer:hover{
+    color: var(--orange-color);
+}
+
+.footer__line{
+    width: 80%;
+    height: 3px;
+    background-color: rgba(255, 166, 0, 0.644);
+    margin-top: 5rem;
+}
+
+.footer__final{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 90%;
+}
+
+.footer__final-p{
+    font-size: 2rem;
+    color: rgba(106, 107, 121, 0.788);
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
 
 
