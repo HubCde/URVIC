@@ -939,3 +939,38 @@ body {
 }
 
 
+/*=============== Ordenador de escritorio Medio: 1660px ===============*/
+
+@media screen and (max-width: 1660px){
+    html {
+        font-size: 9px;
+    }
+}
+
+/*=============== Ordenador portátil medio: 1366px x 768px ===============*/
+
+@media screen and (max-width: 1366px){
+    html {
+        font-size: 8px;
+    }
+
+    .header{
+        top: 9rem;
+    }
+
+}
+
+
+
+/*=============== movil medio: 375px x 667px ===============*/
+
+
+/*=============== movil grande: 720px x 1280px ===============*/
+
+
+/*=============== Ordenador portátil medio: 1366px x 768px ===============*/
+
+
+/*=============== Ordenador de escritorio medio: 1440px x 900px ===============*/
+
+
